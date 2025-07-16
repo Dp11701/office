@@ -60,16 +60,16 @@ const AccountInfo = ({ deleteChecked, setDeleteChecked, onDeleteAccount }) => {
 
         <div className="flex flex-col sm:flex-row gap-3">
           <button 
-            className="flex-1 h-12 md:h-14 rounded-xl bg-red-50 text-primary font-semibold text-sm md:text-base hover:opacity-80 transition-opacity"
+            className="flex-1 h-12 md:h-14 rounded-xl bg-white text-[#BBBBBB] font-semibold text-sm md:text-base hover:opacity-80 transition-opacity border-2 border-[#BBBBBB]"
             onClick={handleCancel}
           >
             Cancel
           </button>
           <button
-            className={`flex-1 h-12 md:h-14 rounded-xl text-[36px] text-white font-semibold text-sm md:text-base transition-opacity ${
+            className={`flex-1 h-12 md:h-14 bg-[#2489FF] rounded-xl text-[36px] text-white font-semibold text-sm md:text-base transition-opacity ${
               !deleteChecked ? 'opacity-40 cursor-not-allowed' : 'hover:opacity-80'
             }`}
-            style={{background: 'linear-gradient(135deg, #FB3C38 0%, #F66F1B 100%)'}}
+    
             onClick={onDeleteAccount}
             disabled={!deleteChecked}
           >

@@ -102,7 +102,7 @@ const AccountDeletion = () => {
           <div className="text-center">
             <div className="flex items-center justify-center gap-4 mb-4">
               <div className="w-7 h-7 rounded-full overflow-hidden">
-                <img src="/assets/avatar.svg" alt="Avatar" className="w-full h-full object-cover" />
+                <img src="/assets/logo.svg" alt="Avatar" className="w-full h-full object-cover" />
               </div>
               <div className="text-lg md:text-2xl font-bold text-gray-800">
                 {userInfo?.data?.uid || userInfo?.data?.email || 'Unknown'}

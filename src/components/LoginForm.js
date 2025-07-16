@@ -69,8 +69,8 @@ const LoginForm = ({ onLogin, loginChecked, setLoginChecked }) => {
         />
         <label htmlFor="agree-login-policy" className="text-gray-text leading-relaxed">
           By continuing, I agree to the{' '}
-          <a href="#" className="text-primary hover:underline">Service Agreement</a> and{' '}
-          <a href="#" className="text-primary hover:underline">Privacy Policy</a>.
+          <a href="#" className="text-[#2489FF] hover:underline">Service Agreement</a> and{' '}
+          <a href="#" className="text-[#2489FF] hover:underline">Privacy Policy</a>.
         </label>
       </div>
     </div>
