@@ -15,4 +15,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Mobile responsive - khi màn hình nhỏ hơn 768px */
+@media (max-width: 767px) {
+  .app {
+    background-image: url('/public/assets/BGMobile.png');
+  }
 } 
